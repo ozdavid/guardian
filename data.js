@@ -55,7 +55,7 @@ var autonomies = [
 }
 ,
 {
-    "id": "platoon1-2-9",
+    "id": "platoon2-1-9",
     "ChildsId": [
     ],
     "equipment": [
@@ -98,7 +98,7 @@ var autonomies = [
         ["122","visible"],
         ["940","visible"]
     ]
-}
+},
 {
     "id": "magad-9",
     "ChildsId": [
