@@ -1,7 +1,9 @@
 import React, {
     Component
   } from "react";
-  
+
+import './App.css';
+
 class Autonomy extends Component {
     
     constructor(props) {
