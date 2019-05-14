@@ -1,0 +1,24 @@
+{
+  "name": "guardian",
+  "version": "1.0.0",
+  "description": "Hackaton",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozdavid/guardian.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozdavid/guardian/issues"
+  },
+  "homepage": "https://github.com/ozdavid/guardian#readme",
+  "dependencies": {
+    "expres": "0.0.5",
+    "express": "^4.16.4"
+  }
+}
