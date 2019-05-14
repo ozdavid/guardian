@@ -1,4 +1,4 @@
-import {gdud_js,autonomies} from './data.js'
+import {company_js, autonomies} from './data.js'
 import React, {
     Component
   } from "react";
