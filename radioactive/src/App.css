@@ -3,3 +3,40 @@
   width: 70px;
 }
 
+.Company{
+  position: relative;
+  top:300px;
+  left:300px;
+  margin-left: 200px;
+  display: inline;
+  border: 1px solid #999;
+}
+
+.Companies{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.platoons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.platoon{
+  position: relative;
+  left:200px;
+  margin-left: 200px;
+  display: inline;
+  border: 1px solid #999;
+}
+
+.radios{
+  height:60px;
+  width:60px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}

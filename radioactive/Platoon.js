@@ -5,7 +5,7 @@ import React, {
 
 import './App.css';
 
-class Company extends Component {
+class Platoon extends Component {
     
     constructor(props) {
         super(props);        

@@ -5,30 +5,29 @@ import React, {
 } from "react";
 
 var walk_talk = {
-  "122": "/images/hi",
-  "940": "/images/hi",
-  "710": "/images/hi",
-  "710מ": "/images/hi",
-  "120": "/images/hi",
-  "714מ": "/images/hi"
+    "122": "walki122",
+    "940": "walki940",
+    "710": "walki710",
+    "710מ": "walki710m",
+    "120": "walki120",
+    "714מ": "walki714m"
 }
 var company_js =
-{
-  "captain" : {
+[
+  {
       "name": "נגמש מפ",
       "equipment" : ["122","940","122", "714מ","710","710מ"]
   },
-  "vice_captain" : {
+  {
       "name": "סמפ",
       "equipment" : ["710","710מ"]
   }
-}
+]
 var autonomies = [
   {
       "id": "platoon-hammer",
       "equipment": [
-          ["122","visible"] ,
-          ["120","visible"]
+          ["122","120"]
       ],
       "mm": {
           "name": "ממ קשת",
@@ -81,7 +80,7 @@ var autonomies = [
 
 class App extends Component {
   render() {
-    return <Company companies={company_js}/>;
+    return <Company walkieTalkis={walk_talk} companies={company_js}/>;
   }
 }
 
