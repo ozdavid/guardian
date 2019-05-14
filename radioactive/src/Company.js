@@ -15,7 +15,9 @@ class Company extends Component {
 
         var companyAutonomies = [];
         
-        console.log(this.props.companies);
+        // this.props.companies.forEach((curCompany){
+        //     companyAutonomies.push(<Autonomy ></Autonomy>)
+        // })
 
         return companyAutonomies;
     }
