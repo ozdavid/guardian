@@ -27,6 +27,7 @@ var autonomies = [
         ["710m","visible"]
     ]
 },
+
 {
     "id": "company2-9",
     "ChildsId": [
@@ -44,3 +45,4 @@ var autonomies = [
 
 
 ]
+export {gdud_js,autonomies}
