@@ -1,4 +1,4 @@
-var gdud_js =
+/*var gdud_js =
 {
     "id": "battalion9",
     "destination": "operational",
@@ -120,5 +120,87 @@ var autonomies = [
     ]
 }
 ]
-
-
+*/
+var walk_talk = {
+    "122": "/images/hi",
+    "940": "/images/hi",
+    "710": "/images/hi",
+    "710מ": "/images/hi",
+    "120": "/images/hi",
+    "714מ": "/images/hi"
+}
+var company_js =
+{
+    /*"destination": "operational",
+    "frequency": "53.00Mhz",
+    "ock": "Agas",
+    "p": [
+        "platoon-hammer",
+        "platoon-nagmash",
+        "platoon-keshset",
+        "mp",
+        "smp"
+    ],*/
+    "captain" : {
+        "name": "נגמש מפ",
+        "equipment" : ["122","940","122", "714מ","710","710מ"]
+    },
+    "vice_captain" : {
+        "name": "סמפ",
+        "equipment" : ["710","710מ"]
+    }
+}
+var autonomies = [
+    {
+        "id": "platoon-hammer",
+        "equipment": [
+            ["122","visible"] ,
+            ["120","visible"]
+        ],
+        "mm": {
+            "name": "ממ קשת",
+            "equipment": [
+                "122","122","710מ","710","714מ"
+            ]
+        },
+        "smm": {
+            "name": "סממ קשת",
+            "equipment": [
+                "122","710מ","710"
+            ]
+        }
+    },
+    {
+        "id": "platoon-nagmash",
+        "mm": {
+            "name": "ממ קשת",
+            "equipment": [
+                "122","122","710מ","714מ"
+            ]
+        },
+        "smm": {
+            "name": "סממ קשת",
+            "equipment": [
+                "122","710מ"
+            ]
+        }
+    },
+    {
+        "id": "platoon-keshset",
+        "equipment": [
+            "122","122","120"
+        ],
+        "mm": {
+            "name": "ממ קשת",
+            "equipment": [
+                "122","122","940","710"
+            ]
+        },
+        "smm": {
+            "name": "סממ קשת",
+            "equipment": [
+                "122","122","940","710"
+            ]
+        }
+    }
+]
