@@ -122,12 +122,12 @@ var autonomies = [
 ]
 */
 var walk_talk = {
-    "122": "/images/hi",
-    "940": "/images/hi",
-    "710": "/images/hi",
-    "710מ": "/images/hi",
-    "120": "/images/hi",
-    "714מ": "/images/hi"
+    "120": "./images/120.png",
+    "122": "./images/122.png",
+    "710": "./images/710purple.png",
+    "710מ": "./images/710m.png",
+    "714מ": "./images/714-m-brown.png",
+    "940": "./images/940green.png"
 }
 var company_js =
 {
