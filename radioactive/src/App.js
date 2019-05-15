@@ -1,6 +1,7 @@
 
 import Company from './Company'; 
 import Platoon from './Platoon'; 
+import trapez from "./IMAGES/trapezoied.png";
 import React, {
   Component
 } from "react";
@@ -29,7 +30,7 @@ var autonomies = [
       "mm": {
           "name": "ממ קשת",
           "equipment": [
-              "122","122","710מ","710","714מ"
+              "122","122","710מ","710"
           ]
       },
       "smm": {
@@ -72,7 +73,8 @@ var autonomies = [
 
 class App extends Component {
   render() {
-  return [<Company walkieTalkis={walk_talk} companies={company_js}/>];
+  return [<img src={trapez} className="trapez"/>,
+  <Platoon walkieTalkie={walk_talk} platoons={autonomies}/>,<Company walkieTalkis={walk_talk} companies={company_js}/>];
   }
 }
 
