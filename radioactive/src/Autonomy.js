@@ -35,14 +35,14 @@ class Autonomy extends Component {
             case "710":
                 display.push(<img key={counter++} src={walki710} className="radios"/>);
                 break;
-            case "710מ":
+            case "710m":
                 display.push(<img key={counter++} src={walki710m} className="radios"/>);
                 break;
             case "120":
-                display.push(<img key={counter++} src={walki710} className="radios"/>);
+                display.push(<img key={counter++} src={walki120} className="radios"/>);
                 break;
-            case "714מ":
-                display.push(<img key={counter++} src={walki710m} className="radios"/>);
+            case "714m":
+                display.push(<img key={counter++} src={walki714m} className="radios"/>);
                 break;
             default:
             }    

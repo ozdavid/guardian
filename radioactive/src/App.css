@@ -5,8 +5,8 @@
 
 .Company{
   position: relative;
-  top:300px;
-  left:300px;
+  top:100px;
+  left:350px;
   margin-left: 200px;
   display: inline;
   border: 1px solid #999;
@@ -16,20 +16,24 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
 .Platoons{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Platoon{
   position: relative;
   left:200px;
-  margin-left: 200px;
+  margin-left: 100px;
   display: inline;
   border: 1px solid #999;
+  text-align: center;
 }
 
 .radios{
@@ -39,4 +43,15 @@
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trapez{
+
+  position: absolute;
+  top:150px;
+  left:230px;
+  height:70%;
+  width:70%;
 }

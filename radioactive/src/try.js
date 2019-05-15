@@ -4,6 +4,7 @@ import React, {
 class NameForm extends Component {
   constructor(props) {
     super(props);
+    this.handleGenerateArray = this.handleGenerateArray.bind(this);
   }
 
   handleSubmit(e) {
@@ -75,6 +76,7 @@ class NameForm extends Component {
           
       }
   }
+    this.props.addPlatoon(result);
     console.log(JSON.stringify(result));
     e.preventDefault();
   }

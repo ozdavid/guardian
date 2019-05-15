@@ -18,9 +18,9 @@ class Platoon extends Component {
         var walkis = this.props.walkieTalkis;
         this.props.platoons.forEach(function(curPlatoon){
 
-            curPlatoon.forEach(function(curEntity){
-                platoonAutonomies.push(<Autonomy walkieTalkis={walkis} className="Platoon" key={counter++} autonomy={curEntity}></Autonomy>);
-            })
+            for(var index in curPlatoon){
+                platoonAutonomies.push(<Autonomy walkieTalkis={walkis} className="Platoon" key={counter++} autonomy={curPlatoon[index]}></Autonomy>);
+            }
         })
 
         return <div className="Platoons">{platoonAutonomies}</div>;
