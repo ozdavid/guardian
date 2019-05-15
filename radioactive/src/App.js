@@ -1,4 +1,8 @@
 
+//import Autonomy from './Autonomy'; 
+import NameForm from './try.js'; 
+
+
 import Company from './Company'; 
 import Platoon from './Platoon'; 
 import trapez from "./IMAGES/trapezoied.png";
@@ -73,9 +77,13 @@ var autonomies = [
 
 class App extends Component {
   render() {
+<<<<<<< HEAD
   return [<img src={trapez} className="trapez"/>,
   <Platoon walkieTalkie={walk_talk} platoons={autonomies}/>,<Company walkieTalkis={walk_talk} companies={company_js}/>];
+=======
+    return <NameForm/>;
+>>>>>>> f9b1a027a28b4907b131747727308617bf366881
   }
 }
 
-export default App;
+export default NameForm;
