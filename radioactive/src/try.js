@@ -63,11 +63,13 @@ class NameForm extends Component {
       ],*/
       
       "mm": {
+          "name": document.getElementById("mm-name").value,
           "equipment": 
             mm_array.split(",")
           
       },
       "smm": {
+        "name": document.getElementById("smm-name").value,
           "equipment": 
               smm_array.split(",")
           
@@ -81,7 +83,11 @@ class NameForm extends Component {
     return (
       <form dir="rtl">
         <p> ציוד ממ</p>
-       
+        <label>
+          שם ממ:
+          <input id = "mm-name" type="text" ref={(input) => this.input = input} />
+        </label>
+        <br />
         <label>
           120:
           <input id = "mm-120" type="text" ref={(input) => this.input = input} />
@@ -123,6 +129,11 @@ class NameForm extends Component {
 
 
         <p> ציוד סממ</p>
+        <label>
+          שם סממ:
+          <input id = "smm-name" type="text" ref={(input) => this.input = input} />
+        </label>
+        <br />
         <label>
           120:
           <input id = "smm-120" type="text" ref={(input) => this.input = input} />
