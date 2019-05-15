@@ -1,15 +1,42 @@
 .Autonomy {
-  background: #fff;
   border: 1px solid #999;
-  float: left;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
-  padding: 0;
-  text-align: center;
-  width: 34px;
+  width: 70px;
 }
 
+.Company{
+  position: relative;
+  top:300px;
+  left:300px;
+  margin-left: 200px;
+  display: inline;
+  border: 1px solid #999;
+}
+
+.Companies{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Platoons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Platoon{
+  position: relative;
+  left:200px;
+  margin-left: 200px;
+  display: inline;
+  border: 1px solid #999;
+}
+
+.radios{
+  height:60px;
+  width:60px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
