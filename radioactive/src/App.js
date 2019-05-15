@@ -1,5 +1,6 @@
 
 import Company from './Company'; 
+import Platoon from './Platoon'; 
 import React, {
   Component
 } from "react";
@@ -25,10 +26,6 @@ var company_js =
 ]
 var autonomies = [
   {
-      "id": "platoon-hammer",
-      "equipment": [
-          ["122","120"]
-      ],
       "mm": {
           "name": "ממ קשת",
           "equipment": [
@@ -43,7 +40,6 @@ var autonomies = [
       }
   },
   {
-      "id": "platoon-nagmash",
       "mm": {
           "name": "ממ קשת",
           "equipment": [
@@ -58,10 +54,6 @@ var autonomies = [
       }
   },
   {
-      "id": "platoon-keshset",
-      "equipment": [
-          "122","122","120"
-      ],
       "mm": {
           "name": "ממ קשת",
           "equipment": [
@@ -80,7 +72,7 @@ var autonomies = [
 
 class App extends Component {
   render() {
-    return <Company walkieTalkis={walk_talk} companies={company_js}/>;
+  return [<Company walkieTalkis={walk_talk} companies={company_js}/>];
   }
 }
 

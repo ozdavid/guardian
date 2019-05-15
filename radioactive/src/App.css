@@ -18,13 +18,13 @@
   flex-wrap: wrap;
 }
 
-.platoons{
+.Platoons{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.platoon{
+.Platoon{
   position: relative;
   left:200px;
   margin-left: 200px;
